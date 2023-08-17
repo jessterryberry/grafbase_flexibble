@@ -15,7 +15,7 @@ const ProfilePage = ({ user }: Props) => (
         <div className='flex items-start flex-col w-full'>
                 <Image src={user?.avatarUrl} width={100} height={100} className="rounded-full" alt="user image" />
                 <p className="text-4xl font-bold mt-10">{user?.name}</p>
-                <p className="md:text-5xl text-3xl font-extrabold md:mt-10 mt-5 max-w-lg">I’m Software Engineer at Walker Advanced Manufacturing Innovation Centre 👋</p>
+                <p className="md:text-5xl text-3xl font-extrabold md:mt-10 mt-5 max-w-lg">I’m Software Engineer at Niagara College Research & Innovation 👋</p>
                 
                 <div className="flex mt-8 gap-5 w-full flex-wrap">
                     <a href="https://www.linkedin.com/in/jessicaterryberry/" target="_blank" rel="noopener noreferrer">
